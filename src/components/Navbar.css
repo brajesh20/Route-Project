@@ -1,0 +1,46 @@
+ul {
+  display: flex;
+  text-decoration: none;
+  gap: 40px;
+  list-style-type: none;
+}
+
+ul li{
+  font-size: 1.2rem;
+}
+
+.nav li a{
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  padding: 4px;
+  justify-content: space-between;
+  max-width: 1180px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  align-items: center;
+}
+
+.buttons button{
+    margin: 5px;
+    padding: 7px;
+    border: none;
+    font-size: 1rem;
+    background-color: rgba(235, 213, 213, 0.537);
+}
+
+button:hover{
+  background-color: rgb(179, 172, 174);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+ul li a:hover{
+  color: rgb(220, 62, 22);
+}

@@ -1,0 +1,7 @@
+.templateDiv{
+    display: flex;
+    max-width: 1180px;
+    padding: 12px;
+    margin: auto;
+    gap: 24px;
+}
